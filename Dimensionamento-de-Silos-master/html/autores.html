@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça os autores deste projeto e sua contribuição para o desenvolvimento do site">
+    <title>Autores</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --verde-claro: #4CAF50;
+            --verde-escuro: #2c7a50;
+            --cinza-claro: #f7f7f7;
+            --texto-principal: #333333;
+        }
+        .row > .col-md-3 {
+              display: flex;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--cinza-claro);
+            color: var(--texto-principal);
+        }
+
+        .cabecalho {
+            background: linear-gradient(135deg, var(--verde-claro), var(--verde-escuro));
+            color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .cabecalho-menu-item {
+            font-weight: 600;
+            color: white !important;
+            transition: color 0.3s;
+        }
+
+        .cabecalho-menu-item:hover {
+            color: #f1f1f1 !important;
+        }
+
+        .conteudo-principal-escrito-titulo {
+            font-weight: 600;
+            font-size: 2rem;
+            color: var(--verde-escuro);
+        }
+
+
+        .autor-card {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.2s ease;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            text-align: center;
+        }
+
+        .autor-card:hover {
+            transform: translateY(-5px);
+        }
+        .autor-card img {
+            width: 180px;
+            height: 180px; 
+            object-fit: cover;
+            object-position: top;
+            border-radius: 50%;
+        }
+        
+
+        .rodape {
+            background-color: var(--verde-escuro);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="cabecalho container-fluid py-3">
+        <div class="row align-items-center">
+            <div class="col-md-2 text-center">
+                <img class="cabecalho-imagem" src="../img/plantinha.svg" alt="Imagem de planta" style="max-height: 50px;">
+            </div>
+            <nav class="cabecalho-menu col-md-10 d-flex justify-content-around">
+                <a class="cabecalho-menu-item nav-link" href="../index.html">Início</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="conteudo container mt-5">
+        <section class="conteudo-principal text-center">
+            <h1 class="conteudo-principal-escrito-titulo">Autores do Projeto</h1>
+            
+            <h2 class="mt-5">Docentes</h2>
+            <div class="row mt-4 justify-content-center">
+                <div class="col-md-3 mb-4">
+                    <div class="autor-card p-4">
+                        <img src="../img/tamara.jpg" alt="Foto do Discente 1">
+                          <h3>Tamara Tais Tres</h3>
+                        <p>Graduação em Zootecnia-UDESC <br>Mestrando em Produção animal - UFRN<br>
+                            Doutorado em Zootecnia - UEM</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="autor-card p-4">
+                        <img src="../img/anderson.jpeg" alt="Foto do Discente 2">
+                          <h3>Anderson Dias Viana</h3>
+                        <p>Técnico em Informática - IFSP<br>
+                            Mestre em Ensino de Ciências(Química) - USP<br>
+                            Doutorado em Química - UFRN</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="autor-card p-4">
+                        <img src="../img/juliete.jpg" alt="Foto do Discente 3">
+                          <h3>Juliete de Lima Gonçalves</h3>
+                          <p>Doutora em Zootecnia -(UFPB).<br> Mestre em Zootecnia - (UVA).<br> Bacharel em Zootecnia - (UVA).  
+                                   </div>
+                </div>
+                
+                <div class="col-md-3 mb-4">
+                    <div class="autor-card p-4">
+                        <img src="../img/valdi.jpeg" alt="Foto do Discente 4">
+                          <h3>Valdi de Lima Júnior</h3>
+                        <p>Graduação em Zootecnia- UFRN<br>
+                            Mestrado em Zootecnia - UFRN<br>
+                            Doutorado em Zootecnia - UFPB
+                             
+                        </p>
+                    </div>
+                </div>
+                 
+                <div class="col-md-3 mb-4">
+                    <div class="autor-card p-4">
+                        <img src="../img/carlo.jpg" alt="Foto do Discente 5">
+                          <h3>Carlo Aldrovandi Torreão Marques</h3>
+                        <p>Doutorado em Zootecnia - UFPB<br>
+                            Mestrado em Produção Animal - FVACC<br></p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="autor-card p-4">
+                        <img src="../img/nivaldo.jpeg" alt="Foto do Discente 6">
+                          <h3>Nivaldo Karvatte Junior</h3>
+                        <p>Doutorado em Zootecnia- UFGO<br>
+                            Pós Doutorado - UFMA
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="mt-5">Discentes</h2>
+            <div class="row mt-4 justify-content-center">
+                <div class="col-md-3 mb-4">
+                    <div class="autor-card p-4">
+                        <img src="../img/Amaury.jpg" alt="Foto do Discente 1">
+                          <h3>Amaury Alves</h3>
+                        <p>Mestrando em Produção animal-UFRN</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="autor-card p-4">
+                        <img src="../img/Anelys.jpg" alt="Foto do Discente 2">
+                          <h3>Anelys Barbosa</h3>
+                        <p>Técnica em agropecuária-UFRN<br> 
+                            Graduanda em Zootecnia-UFRN</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="autor-card p-4">
+                        <img src="../img/clailton.jpg" alt="Foto do Discente 3">
+                          <h3>Clailton Fideles</h3>
+                          <p>Técnico em agropecuária-UFRN<br> 
+                            Graduando em Zootecnia-UFRN</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 mb-4">
+                    <div class="autor-card p-4">
+                        <img src="../img/davi.jpg" alt="Foto do Discente 4">
+                          <h3>Davi Jones</h3>
+                        <p>Técnico em informática-UFRN<br>
+                            Graduando em Zootecnia-UFRN</p>
+                    </div>
+                </div>
+                 
+                <div class="col-md-3 mb-4">
+                    <div class="autor-card p-4">
+                        <img src="../img/dayanne.jpg" alt="Foto do Discente 5">
+                          <h3>Dayane Ribeiro</h3>
+                        <p>Técnica em agropecuária-UFRN<br> 
+                            Graduanda em Zootecnia-UFRN</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="autor-card p-4">
+                        <img src="../img/gui.jpg" alt="Foto do Discente 6">
+                          <h3>Guilherme F.</h3>
+                        <p>Graduando em Zootecnia-UFRN</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="autor-card p-4">
+                        <img src="../img/guizin.jpg " alt="Foto do Discente 7">
+                          <h3>Guilherme P.</h3>
+                        <p>Discente de informática-UFRN</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="autor-card p-4">
+                        <img src="../img/isis.jpg" alt="Foto do Discente 8">
+                          <h3>Isis Melo</h3>
+                        <p>Graduanda em Engenharia agronômica-UFRN</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape container-fluid text-center py-3">
+        <img class="rodape-imagem" src="../img/EAJ.svg" alt="Logo da EAJ" style="max-height: 50px;">
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
